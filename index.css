@@ -1,0 +1,57 @@
+    h1,
+    h2 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: gray;
+        line-height: 200%;
+    }
+
+    h1 {
+        border-bottom: 1px solid black;
+    }
+
+    p {
+        color: maroon;
+    }
+
+    em {
+        font-family: serif;
+    }
+
+    p.greentea {
+        color: green;
+    }
+
+    p.lightblue {
+        color: blueviolet;
+    }
+
+    p.blue {
+        color: blue;
+    }
+
+    p.red {
+        color: red;
+    }
+
+    img.day1_img {
+        width: 30%;
+    }
+
+    div.day1_v{
+        line-height: 1.9em;
+        font-style: italic;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        border-style: dashed;
+        border-color: white;
+        width: 800px;
+        margin-left: 30px;
+        padding: 25px;
+        background-color: #a7cece;
+        background-image: url(./images/blingbling.png);
+    }
+    p.day1_p{
+        color: #444444;
+    }
+    ol.day1_ol{
+        color: #444444;
+    }
