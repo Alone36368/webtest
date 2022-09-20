@@ -1,3 +1,37 @@
+    #elixirs {
+        border-width: thin;
+        border-style: dashed;
+        border-color: #007e7e;
+        width: 400px;
+
+        padding-top: 200px;
+        padding-right:20px ;
+        padding-bottom:20px ;
+        padding-left:20px ;
+
+        margin-left:20px ;
+
+        text-align: center;
+
+        background-image: url(./images/kafei.png);
+        background-repeat: repeat-x;
+
+        line-height: 1;
+    }
+
+    #elixirs h2{
+        color: black;
+    }
+    #elixirs h3{
+        color: #d12c47;
+    }
+    #playing li{
+        font-style: italic;
+    }
+    #playing span{
+        font-weight: bold;
+        font-style: normal;
+    }
     h1,
     h2 {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -37,7 +71,7 @@
         width: 30%;
     }
 
-    div.day1_v{
+    div.day1_v {
         line-height: 1.9em;
         font-style: italic;
         font-family: Georgia, 'Times New Roman', Times, serif;
@@ -49,9 +83,21 @@
         background-color: #a7cece;
         background-image: url(./images/blingbling.png);
     }
-    p.day1_p{
+
+    p.day1_p {
         color: #444444;
     }
-    ol.day1_ol{
+
+    ol.day1_ol {
         color: #444444;
+    }
+
+    a:link{
+        color: green;
+    }
+    a:visited{
+        color: red;
+    }
+    a:hover{
+        color: yellow;
     }
